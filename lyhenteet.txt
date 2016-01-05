@@ -1,0 +1,6 @@
+LB = muistio
+IN = tavaraluettelo
+CM = Pelihahmon tiedot
+PM = pelimenu
+CW = Vaihda asetta
+WA = aseen erikoisisku

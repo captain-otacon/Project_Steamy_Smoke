@@ -1,14 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{AAD44590-F65A-8D70-66A4-CD3B86CDD3FE}") = "Project_Steamy_Smoke", "Assembly-CSharp.csproj", "{8AA09ABA-8EB3-1721-4134-4526699EFBB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{8AA09ABA-8EB3-1721-4134-4526699EFBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA09ABA-8EB3-1721-4134-4526699EFBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA09ABA-8EB3-1721-4134-4526699EFBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA09ABA-8EB3-1721-4134-4526699EFBB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
