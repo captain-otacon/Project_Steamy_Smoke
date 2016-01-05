@@ -3,8 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 
 public class PlayerBackGround : MonoBehaviour {
-	int valuetext;
-	Text raceMenu;
+	public Dropdown raceMenu;
+	public Text raceText;
 	// Use this for initialization
 	void Start () {
 		
@@ -12,16 +12,16 @@ public class PlayerBackGround : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		RaceBackground ();
+		UpdateText ();
 	}
 
-	void RaceBackground () {
-		if (valuetext == 0) {
-			raceMenu.text = "Human Race";
-		} else if (valuetext == 1) {
-			raceMenu.text = "Elf Race";
-		} else if (valuetext == 2) {
-			raceMenu.text = "Dwarf Race";
+	public void UpdateText () {
+		if (raceMenu.value == 0) {
+			raceText.text = "Human";
+		} else if (raceMenu.value == 1) {
+			raceText.text = "Elf";
+		} else if (raceMenu.value == 2) {
+			raceText.text = " Dwarf";
 		}
-	}	
+	}
 }
