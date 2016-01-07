@@ -10,10 +10,10 @@ public class NewGame : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
 	public void onClick () {
-		Application.LoadLevel ("Character Creation");
+		UnityEngine.SceneManagement.SceneManager.LoadScene ("Character Creation");
 	}
 }
