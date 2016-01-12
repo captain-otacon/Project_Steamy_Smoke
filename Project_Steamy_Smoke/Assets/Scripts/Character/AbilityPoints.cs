@@ -15,7 +15,13 @@ public class AbilityPoints : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
 		RaceDropdown = GameObject.Find ("PlayerRace").GetComponent<Dropdown> ();
+		RaceScript ();
+	}
+	// Update is called once per frame
+	void Update () {
 		Race = RaceDropdown.value;
+	}
+	void RaceScript() {
 		if (Race == 0) {
 			Str = Str + 1;
 			Dex = Dex + 1;
@@ -23,10 +29,8 @@ public class AbilityPoints : MonoBehaviour {
 			Int = Int + 1;
 			Wis = Wis + 1;
 			Cha = Cha + 1;
+		} else {
+			
 		}
-	}
-	// Update is called once per frame
-	void Update () {
-		
 	}
 }
