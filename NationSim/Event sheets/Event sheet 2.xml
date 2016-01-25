@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <variable constant="0" name="RulerName" sid="3606302847109159" static="0" type="text"></variable>
+        <variable constant="0" name="NationName" sid="7799921512560507" static="0" type="text"></variable>
+        <event-block sid="7045762994725314">
+            <conditions>
+                <condition id="0" name="On changed" sid="1333091606115088" type="FlagChooser" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="3856739998376696" type="FlagSprite">
+                    <param id="0" name="URI">FlagChooser.FileURLAt(0)</param>
+                    <param id="1" name="Size">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8650753793938431">
+            <conditions>
+                <condition id="0" name="On changed" sid="8460192050137354" type="FaceChooser" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="6354129761684768" type="FaceSprite">
+                    <param id="0" name="URI">FaceChooser.FileURLAt(0)</param>
+                    <param id="1" name="Size">1</param>
+                </action>
+                <action id="10" name="Load image from URL" sid="8283035424774491" type="FamilyFace">
+                    <param id="0" name="URI">FaceChooser.FileURLAt(0)</param>
+                    <param id="1" name="Size">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="829041403964047">
+            <conditions>
+                <condition id="0" name="On clicked" sid="7434474197222427" type="Start" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9330035075692834" type="System">
+                    <param id="0" name="Layout">Main Game</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="9896487272190099">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="6533951172977999" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8683387626617768" type="System">
+                    <param id="0" name="Variable">NationName</param>
+                    <param id="1" name="Value">NationName.Text</param>
+                </action>
+                <action id="-9" name="Set value" sid="6799680385334612" type="System">
+                    <param id="0" name="Variable">RulerName</param>
+                    <param id="1" name="Value">RulerName.Text</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>NationSim</name>
+    <description></description>
+    <version>0.0.0.1</version>
+    <author>Eero Taponen</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>vir8n5nofy37</unique-id>
+    <saved-with-version>21600</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Main Menu</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="BasicText" sid="6255836024065996">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Tutorial" sid="2083700683109745">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Play" sid="5645652458688416">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="BasicInfoScreen" sid="7572748848143543">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Eero\Pictures\NationSim\BackgroundGreen.jpg" />
+        </object-type>
+        <object-type name="NationName" sid="7407439222071888">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Adjective" sid="8807712621577802">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="RulerScreen" sid="162879434597111">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Eero\Pictures\Nationsim\BackgroundBlue.jpg" />
+        </object-type>
+        <object-type name="RulerName" sid="7077641312354052">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Offlanguage" sid="7459117957977843">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="RulerTitle" sid="4094213669817209">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="FlagChooser" sid="5356441394845121">
+            <plugin id="filechooser" />
+        </object-type>
+        <object-type name="FlagSprite" sid="4068464138306058">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5754227512538576" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eero\Pictures\Nationsim\question-mark.jpg">
+                        <collision-poly>
+                            <point x="0.232558" y="0.232558" />
+                            <point x="0.5" y="0.0658915" />
+                            <point x="0.77907" y="0.22093" />
+                            <point x="0.682171" y="0.5" />
+                            <point x="0.589147" y="0.589147" />
+                            <point x="0.5" y="0.934109" />
+                            <point x="0.422481" y="0.577519" />
+                            <point x="0.457364" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Start" sid="6439847888381379">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="FaceSprite" sid="8297522111332063">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9042987963806211" speed="5">
+                    <frame duration="1" hotspotX="0.500692" hotspotY="0.500514" original-source="C:\Users\Eero\Pictures\Nationsim\Head-silhouette-with-question-mark.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FaceChooser" sid="4069352105070786">
+            <plugin id="filechooser" />
+        </object-type>
+        <object-type name="USAMap" sid="5579354866177932">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6592360207599668" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500404" original-source="C:\Users\Eero\Pictures\Nationsim\Blank_US_Map.png">
+                        <collision-poly>
+                            <point x="0.068" y="0.109943" />
+                            <point x="0.9435" y="0.09135" />
+                            <point x="0.872" y="0.499596" />
+                            <point x="0.803" y="0.681487" />
+                            <point x="0.5" y="0.85772" />
+                            <point x="0.018" y="0.970897" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Mouse" sid="2258533857822578">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="NationInfo" sid="5349796018885173">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Eero\Pictures\Nationsim\BackgroundBlue.jpg" />
+        </object-type>
+        <object-type name="NationNameText" sid="6534861033250388">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="PopulationText" sid="5959763999725376">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="NextDay" sid="2946029107390031">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Date" sid="4089830738825834">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="FamilyButton" sid="1005527503457097">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="FamilyInfo" sid="5832836644737825">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Eero\Pictures\Nationsim\BackgroundBlue.jpg" />
+        </object-type>
+        <object-type name="FamilyFace" sid="5458324133205509">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2477062548119586" speed="5">
+                    <frame duration="1" hotspotX="0.500692" hotspotY="0.500514" original-source="C:\Users\Eero\Pictures\Nationsim\Head-silhouette-with-question-mark.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RulerNameText" sid="2968071275590106">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="WifeLine" sid="7550311866676651">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5071204625057261" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.6" original-source="C:\Users\Eero\Pictures\Nationsim\FamilyLine.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WifeSprite" sid="1954758208156251">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6301628917951391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eero\Pictures\Nationsim\blank_profile_female.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WifeText" sid="820876215095952">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Marry" sid="3432245830366171">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="RulerNameText2" sid="7124032326238584">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EventBackGround" sid="7825802808706404">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5577674454968403" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Eero\Pictures\Nationsim\Event.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EventHeadLine" sid="2322696394491652">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EventPicture" sid="2585752027814433">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3174633062784444" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501104" original-source="C:\Users\Eero\Pictures\Nationsim\Immigration-logo.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EventText" sid="6629250141712644">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EventButtom" sid="19650820455957">
+            <plugin id="Button" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Main Menu.xml</layout>
+        <layout>Nation Creator.xml</layout>
+        <layout>Main Game.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 2.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="22" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

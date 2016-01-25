@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <variable constant="0" name="HaveWife" sid="8900558198230004" static="0" type="number">0</variable>
+        <variable constant="0" name="EventNumber" sid="105054926329754" static="0" type="number">0</variable>
+        <variable constant="0" name="year" sid="4429971120777987" static="0" type="number">2020</variable>
+        <variable constant="0" name="Mouth" sid="5436706781770224" static="0" type="number">1</variable>
+        <variable constant="0" name="Day" sid="7772531681719811" static="0" type="number">1</variable>
+        <variable constant="0" name="Population" sid="7735849838785307" static="0" type="number">1</variable>
+        <event-block sid="858487928820136">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="1992618354515083" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Load image from URL" sid="5790934540563123" type="FlagSprite">
+                    <param id="0" name="URI">FlagChooser.FileURLAt(0)</param>
+                    <param id="1" name="Size">1</param>
+                </action>
+                <action id="0" name="Set text" sid="4500466900578721" type="NationNameText">
+                    <param id="0" name="Text">NationName</param>
+                </action>
+                <action id="0" name="Set text" sid="885055113385202" type="RulerNameText">
+                    <param id="0" name="Text">RulerName</param>
+                </action>
+                <action id="0" name="Set text" sid="8322037711973982" type="WifeText">
+                    <param id="0" name="Text">&quot;Chitose Ikeda&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="8452464157725626" type="EventHeadLine">
+                    <param id="0" name="Text">&quot;Immigration boom&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="5991633199046778" type="EventText">
+                    <param id="0" name="Text">&quot;This nation has experinted immigration boost. +10 population&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8892831060089158">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4111821213100398" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">FlagSprite</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3071542371187086" type="NationInfo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7604397916886164" type="NationNameText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3142363176259374" type="PopulationText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2971223258965513" type="FaceSprite">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="2345587188218179" type="RulerNameText2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1562670995371492">
+            <conditions>
+                <condition id="0" name="On click" sid="6992057618806167" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="9405894905978988" type="NationInfo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6852508100429757" type="NationNameText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8296761109835562" type="PopulationText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8241668088224166" type="FaceSprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="3471848664502702" type="FamilyInfo">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6425818496828695" type="RulerNameText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1506067201925977" type="FamilyFace">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="3793475636716797" type="Marry">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6806819660379527" type="WifeLine">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5835574169404005" type="WifeText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8711876532832232" type="WifeSprite">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7888400029271916" type="RulerNameText2">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4455808036603248">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3703079090070974" type="System">
+                    <param id="0" name="Variable">NationName</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">&quot;&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="4784311028787531" type="NationNameText">
+                    <param id="0" name="Text">&quot;Shitland&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="647161201634539">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="3780969582826624" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="6397191711706907" type="PopulationText">
+                    <param id="0" name="Text">&quot;Population: &quot; &amp; Population</param>
+                </action>
+                <action id="0" name="Set text" sid="5199920556376281" type="Date">
+                    <param id="0" name="Text">Day &amp; &quot; &quot; &amp; Mouth &amp; &quot; &quot; &amp; year</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8003899556374404">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="3373183546990558" type="System">
+                    <param id="0" name="Variable">Day</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">30</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="8435201852980985" type="System">
+                    <param id="0" name="Variable">Mouth</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="3787916998388255" type="System">
+                    <param id="0" name="Variable">Day</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7824889173833011">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="2431683103980302" type="System">
+                    <param id="0" name="Variable">Mouth</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">12</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="5436438696586494" type="System">
+                    <param id="0" name="Variable">year</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="8728824311124389" type="System">
+                    <param id="0" name="Variable">Mouth</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6847303278370987">
+            <conditions>
+                <condition id="0" name="On clicked" sid="4114195738587626" type="NextDay" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="7249732429410459" type="System">
+                    <param id="0" name="Variable">Day</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8456332916804636" type="EventBackGround">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1684199125522422" type="EventPicture">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8184831555925945" type="EventHeadLine">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1108305445740278" type="EventText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="2" name="Set visible" sid="4063439910505" type="EventButtom">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6755089170159999">
+            <conditions>
+                <condition id="0" name="On clicked" sid="8496825117845688" type="FamilyButton" />
+                <condition id="-14" name="Compare variable" sid="7810476032570461" type="System">
+                    <param id="0" name="Variable">HaveWife</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="6781037716321674" type="FamilyInfo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7578479871469749" type="RulerNameText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="4396453671114597" type="FamilyFace">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="2" name="Set visible" sid="2503599565125561" type="Marry">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3601069131951601">
+            <conditions>
+                <condition id="0" name="On clicked" sid="3629605186171791" type="Marry" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7698409323233997" type="System">
+                    <param id="0" name="Variable">HaveWife</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="71759650196746">
+            <conditions>
+                <condition id="0" name="On clicked" sid="6309251797923491" type="FamilyButton" />
+                <condition id="-14" name="Compare variable" sid="1663512161437406" type="System">
+                    <param id="0" name="Variable">HaveWife</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="259386250387779" type="FamilyInfo">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5674532564317222" type="FamilyFace">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5790859287274281" type="WifeSprite">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="7695989845361998" type="WifeLine">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="1242145662055912" type="WifeText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3093135188935792">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9327023705090988" type="EventButtom" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="3137060793041277" type="EventHeadLine">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="8172097892217153" type="EventBackGround">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9272547885681968" type="EventText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="952998934397402" type="EventPicture">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="2" name="Set visible" sid="6300086090196064" type="EventButtom">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-10" name="Add to" sid="6450214525217441" type="System">
+                    <param id="0" name="Variable">Population</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
