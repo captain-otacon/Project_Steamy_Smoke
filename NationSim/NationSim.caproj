@@ -219,6 +219,23 @@
         <object-type name="EventButtom" sid="19650820455957">
             <plugin id="Button" />
         </object-type>
+        <object-type name="SenateInfo" sid="9953432391731227">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1990244865914787" speed="5">
+                    <frame duration="1" hotspotX="0.500512" hotspotY="0.500813" original-source="C:\Users\Eero\Pictures\Nationsim\BackgroundBlue.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="9112452757932822">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Capitalist" sid="6829030715701986">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Socialist" sid="3639365484919754">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
